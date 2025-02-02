@@ -6,220 +6,263 @@
     <title>Schulterhoch - Das Fundament für grenzenlose Möglichkeiten</title>
     <meta name="description" content="Schaffen Sie heute die Strukturen, die Ihren Kindern alle Türen öffnen. Schulterhoch begleitet Sie beim Aufbau eines Systems, das wirtschaftliche Handlungsfreiheit über Generationen sichert.">
     
-    <!-- TailwindCSS -->
     <link href="tailwind.min.css" rel="stylesheet">
-    
-    <!-- Custom Styles -->
-    <style>
-        .hover-transform {
-            transition: transform 0.2s;
-        }
-        .hover-transform:hover {
-            transform: translateY(-4px);
-        }
-        .hero-gradient {
-            background: linear-gradient(135deg, #1a365d 0%, #2563eb 100%);
-        }
-    </style>
 </head>
-<body class="bg-gray-50">
-    <!-- Hero Section -->
-    <section class="hero-gradient text-white py-20">
-        <div class="container mx-auto px-6">
-            <!-- Logo -->
-            <div class="w-32 h-32 mx-auto mb-8">
-                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="100" cy="100" r="95" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
-                    <path d="M85 140 L85 100 L115 100 L115 140" stroke="#ffffff" stroke-width="3" fill="none"/>
-                    <path d="M85 140 L75 170 M115 140 L125 170" stroke="#ffffff" stroke-width="3" fill="none"/>
-                    <path d="M85 110 L75 90 M115 110 L125 90" stroke="#ffffff" stroke-width="3" fill="none"/>
-                    <circle cx="100" cy="90" r="10" stroke="#ffffff" stroke-width="3" fill="none"/>
-                    <path d="M85 70 L115 70" stroke="#ffffff" stroke-width="3" fill="none"/>
-                    <path d="M90 70 L85 90 M110 70 L115 90" stroke="#ffffff" stroke-width="3" fill="none"/>
-                    <circle cx="100" cy="55" r="8" stroke="#ffffff" stroke-width="3" fill="none"/>
-                </svg>
-            </div>
-            
-            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-center">
-                Schulterhoch
-            </h1>
-            <p class="text-xl md:text-2xl text-blue-100 mb-8 text-center max-w-3xl mx-auto">
-                Ihr Kind. Seine Zukunft. Keine Grenzen.<br>
-                <span class="text-lg md:text-xl mt-2 block">Das Fundament für echte wirtschaftliche Handlungsfreiheit.</span>
-            </p>
-            <p class="text-lg text-blue-200 text-center max-w-2xl mx-auto">
-                Ein System, das Türen öffnet statt Möglichkeiten zu beschränken.
-            </p>
-        </div>
-    </section>
-
-    <!-- Main Content -->
-    <section class="py-16 -mt-16">
-        <div class="container mx-auto px-6">
-            <div class="grid md:grid-cols-2 gap-8">
-                <!-- Szenario 1: Erfolgreicher Exit -->
-                <div class="bg-white p-6 rounded-lg shadow-md hover-transform">
-                    <div class="flex items-start gap-4">
-                        <div class="bg-red-100 p-3 rounded-lg">
-                            <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"/>
-                            </svg>
-                        </div>
-                        <div>
-                            <h2 class="text-xl font-semibold mb-2">
-                                Vermögensverlust beim Exit vermeiden
-                            </h2>
-                            <div class="space-y-2 text-gray-600">
-                                <p>Ausgangssituation:</p>
-                                <ul class="list-disc pl-5 space-y-1">
-                                    <li>Startup-Exit: 10 Millionen Euro</li>
-                                    <li>Persönliche Beteiligung in Deutschland</li>
-                                    <li>Direkter Anteilsverkauf</li>
-                                </ul>
-                                <p class="font-semibold text-red-600">Konsequenz ohne Vorsorge:</p>
-                                <ul class="list-disc pl-5 space-y-1 text-red-600">
-                                    <li>Sofortige Steuerlast ~30%</li>
-                                    <li>Reinvestitionssteuer ~25%</li>
-                                    <li>Effektiver Verlust: 7 Millionen Euro</li>
-                                </ul>
-                            </div>
-                        </div>
+<body class="bg-gradient-to-br from-gray-50 to-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <div class="w-10 h-10">
+                        <!-- Logo SVG hier -->
                     </div>
+                    <span class="ml-3 text-xl font-semibold text-gray-800">Schulterhoch</span>
                 </div>
-
-                <!-- Szenario 2: Wegzugsbesteuerung -->
-                <div class="bg-white p-6 rounded-lg shadow-md hover-transform">
-                    <div class="flex items-start gap-4">
-                        <div class="bg-orange-100 p-3 rounded-lg">
-                            <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
-                            </svg>
-                        </div>
-                        <div>
-                            <h2 class="text-xl font-semibold mb-2">
-                                Die Wegzugsfalle
-                            </h2>
-                            <div class="space-y-2 text-gray-600">
-                                <p>Situation:</p>
-                                <ul class="list-disc pl-5 space-y-1">
-                                    <li>100.000€ Gewinn pro Jahr</li>
-                                    <li>Wunsch: Umzug ins EU-Ausland</li>
-                                </ul>
-                                <p class="font-semibold text-orange-600">Konsequenz:</p>
-                                <ul class="list-disc pl-5 space-y-1 text-orange-600">
-                                    <li>7 Jahre effektiv 100% Steuer</li>
-                                    <li>Sofortige Fälligkeit bei Wegzug</li>
-                                    <li>Faktische Unmöglichkeit des Umzugs</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Szenario 3: Effektive Steuerlast -->
-                <div class="bg-white p-6 rounded-lg shadow-md hover-transform">
-                    <div class="flex items-start gap-4">
-                        <div class="bg-yellow-100 p-3 rounded-lg">
-                            <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/>
-                            </svg>
-                        </div>
-                        <div>
-                            <h2 class="text-xl font-semibold mb-2">
-                                Die wahre Steuerlast
-                            </h2>
-                            <div class="space-y-2 text-gray-600">
-                                <p>Gesamtbelastung:</p>
-                                <ul class="list-disc pl-5 space-y-1">
-                                    <li>Einkommensteuer bis 45%</li>
-                                    <li>Solidaritätszuschlag 5,5%</li>
-                                    <li>Gewerbesteuer ~15%</li>
-                                    <li>Umsatzsteuer 19%</li>
-                                </ul>
-                                <p class="font-semibold text-yellow-600">Effektiv:</p>
-                                <ul class="list-disc pl-5 text-yellow-600">
-                                    <li>~70% Gesamtbelastung auf einen typischen Lebensstil</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Szenario 4: Blockierter Vermögensaufbau -->
-                <div class="bg-white p-6 rounded-lg shadow-md hover-transform">
-                    <div class="flex items-start gap-4">
-                        <div class="bg-blue-100 p-3 rounded-lg">
-                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
-                            </svg>
-                        </div>
-                        <div>
-                            <h2 class="text-xl font-semibold mb-2">
-                                Der blockierte Vermögensaufbau
-                            </h2>
-                            <div class="space-y-2 text-gray-600">
-                                <p>Beispielrechnung über 30 Jahre:</p>
-                                <ul class="list-disc pl-5 space-y-1">
-                                    <li>Startkapital: 100.000€</li>
-                                    <li>Jährliche Rendite: 8%</li>
-                                </ul>
-                                <p class="font-semibold text-blue-600">Vermögen nach 30 Jahren:</p>
-                                <ul class="list-disc pl-5 space-y-1">
-                                    <li class="text-green-600">Bei 15% Steuer: ~850.000€</li>
-                                    <li class="text-red-600">Bei 45% Steuer: ~320.000€</li>
-                                </ul>
-                                <p class="font-semibold mt-2">Verlorenes Potenzial:</p>
-                                <ul class="list-disc pl-5 text-red-600">
-                                    <li>Über 530.000€ weniger Endvermögen</li>
-                                    <li>62% des möglichen Vermögens verloren</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Szenario 5: Zukünftige Risiken -->
-            <div class="bg-white p-6 rounded-lg shadow-md hover-transform mt-8">
-                <div class="flex items-start gap-4">
-                    <div class="bg-purple-100 p-3 rounded-lg">
-                        <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <h2 class="text-xl font-semibold mb-2">
-                            Zukünftige Bedrohungen
-                        </h2>
-                        <div class="space-y-2 text-gray-600">
-                            <p>Historische Präzedenzfälle:</p>
-                            <ul class="list-disc pl-5 space-y-1">
-                                <li>Lastenausgleich (50% des Vermögens)</li>
-                                <li>Vermögensabgabe</li>
-                                <li>Neue Sonderabgaben</li>
-                            </ul>
-                            <p class="font-semibold text-purple-600">Risiken:</p>
-                            <ul class="list-disc pl-5 text-purple-600">
-                                <li>Keine rechtliche Begrenzung für Sonderabgaben</li>
-                                <li>Präzedenzfälle für Notfall-Enteignungen</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Call to Action -->
-            <div class="mt-12 text-center">
-                <p class="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
-                    Ein System, das Generationen verbindet und Vermögen schützt.<br>
-                    Entdecken Sie, wie Sie heute die Grundlage für morgen legen können.
-                </p>
-                <button class="bg-blue-600 text-white px-8 py-3 rounded-lg 
-                             font-semibold hover:bg-blue-700 transition-colors">
-                    Kostenfreien Strategieleitfaden herunterladen
+                <button class="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
+                    Kontakt
                 </button>
             </div>
         </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-r from-blue-900 to-blue-700 py-24 overflow-hidden">
+        <div class="absolute inset-0 bg-grid-white/[0.05] bg-[size:16px]"></div>
+        <div class="container mx-auto px-6 relative">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                    Ihr Kind. Seine Zukunft.<br/>
+                    <span class="text-blue-200">Keine Grenzen.</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-blue-100 mb-12">
+                    Das Fundament für echte wirtschaftliche Handlungsfreiheit
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button class="bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-200 shadow-lg">
+                        Strategieleitfaden herunterladen
+                    </button>
+                    <button class="bg-blue-800 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-900 transition-colors duration-200">
+                        Beratungsgespräch vereinbaren
+                    </button>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- Feature Cards Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-2xl mx-auto text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Sichern Sie die Zukunft der nächsten Generation</h2>
+                <p class="text-xl text-gray-600">Ein System, das Türen öffnet statt Möglichkeiten zu beschränken</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Card 1: Exit-Optimierung -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="p-8">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="flex-shrink-0 w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center">
+                                <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900">Vermögensverlust beim Exit vermeiden</h3>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="bg-gray-50 rounded-xl p-6">
+                                <p class="font-medium text-gray-700 mb-2">Klassisches Szenario:</p>
+                                <ul class="space-y-2 text-gray-600">
+                                    <li class="flex items-center">
+                                        <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
+                                        </svg>
+                                        Startup-Exit: 10 Millionen Euro
+                                    </li>
+                                    <li class="flex items-center">
+                                        <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
+                                        </svg>
+                                        Persönliche Beteiligung in Deutschland
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bg-red-50 rounded-xl p-6">
+                                <p class="font-medium text-red-700 mb-2">Konsequenz ohne Vorsorge:</p>
+                                <ul class="space-y-2 text-red-600">
+                                    <li class="flex items-center">
+                                        <svg class="w-5 h-5 text-red-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                                        </svg>
+                                        Effektiver Verlust: 7 Millionen Euro
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Wegzugsbesteuerung -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="p-8">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center">
+                                <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900">Die Wegzugsfalle vermeiden</h3>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="bg-gray-50 rounded-xl p-6">
+                                <p class="font-medium text-gray-700 mb-2">Ausgangssituation:</p>
+                                <ul class="space-y-2 text-gray-600">
+                                    <li class="flex items-center">
+                                        <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
+                                        </svg>
+                                        100.000€ Gewinn pro Jahr
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bg-orange-50 rounded-xl p-6">
+                                <p class="font-medium text-orange-700 mb-2">Ohne Vorsorge:</p>
+                                <ul class="space-y-2 text-orange-600">
+                                    <li class="flex items-center">
+                                        <svg class="w-5 h-5 text-orange-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                                        </svg>
+                                        7 Jahre effektiv 100% Steuer
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefit Section -->
+    <section class="bg-white py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Unsere Lösung für Ihre Familie</h2>
+                    <p class="text-xl text-gray-600">Ein durchdachtes System für maximale Handlungsfreiheit</p>
+                </div>
+                
+                <div class="space-y-8">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Rechtssichere Strukturierung</h3>
+                            <p class="text-gray-600">Eine zukunftssichere Lösung, die Handlungsfreiheit über Generationen gewährleistet</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center">
+                            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Frühzeitige Weichenstellung</h3>
+                            <p class="text-gray-600">Je früher die richtigen Strukturen geschaffen werden, desto mehr Möglichkeiten bleiben erhalten</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-gradient-to-r from-blue-900 to-blue-700 py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-white mb-6">Sichern Sie jetzt die Zukunft Ihrer Familie</h2>
+                <p class="text-xl text-blue-100 mb-8">
+                    Erfahren Sie in unserem kostenlosen Strategieleitfaden, wie Sie heute die richtigen Weichen für morgen stellen.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button class="bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-200 shadow-lg">
+                        Jetzt Leitfaden herunterladen
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <span class="text-white font-semibold text-lg">Schulterhoch</span>
+                    </div>
+                    <p class="text-sm">
+                        Ihr Partner für generationsübergreifende wirtschaftliche Handlungsfreiheit.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="space-y-4">
+                    <h4 class="text-white font-medium">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition-colors">Strategieberatung</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Strukturierung</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Vermögensschutz</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Leitfaden</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div class="space-y-4">
+                    <h4 class="text-white font-medium">Ressourcen</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Fallstudien</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Newsletter</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="space-y-4">
+                    <h4 class="text-white font-medium">Kontakt</h4>
+                    <div class="space-y-2">
+                        <a href="mailto:kontakt@schulterhoch.de" class="block hover:text-white transition-colors">
+                            kontakt@schulterhoch.de
+                        </a>
+                        <a href="tel:+49123456789" class="block hover:text-white transition-colors">
+                            +49 (0) 123 456 789
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="border-t border-gray-800 mt-12 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="text-sm">
+                        © 2024 Schulterhoch. Alle Rechte vorbehalten.
+                    </div>
+                    <div class="flex space-x-6 mt-4 md:mt-0">
+                        <a href="#" class="text-sm hover:text-white transition-colors">Impressum</a>
+                        <a href="#" class="text-sm hover:text-white transition-colors">Datenschutz</a>
+                        <a href="#" class="text-sm hover:text-white transition-colors">AGB</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
