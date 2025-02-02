@@ -73,337 +73,464 @@
             </div>
     
             <div class="grid gap-8 mb-16">
-                <!-- Szenario 1: Erfolgreicher Exit -->
+<!-- Szenario 1: Erfolgreicher Exit -->
                 <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div class="p-8">
-                        <div class="flex items-start gap-6">
-                            <div class="flex-shrink-0">
-                                <div class="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center">
-                                    <svg class="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"/>
-                                    </svg>
+                        <!-- Header mit Icon und Titel -->
+                        <div class="flex items-center gap-4 mb-8">
+                            <div class="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center">
+                                <svg class="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-semibold text-gray-900">Der vermeintliche Traumstart</h3>
+                                <p class="text-gray-500 mt-1">Wenn der erste große Erfolg Ihres Kindes zur Belastung wird</p>
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <!-- Narrative Column -->
+                            <div class="space-y-6">
+                                <div class="prose prose-lg">
+                                    <p class="text-gray-700 leading-relaxed">
+                                        Stellen Sie sich vor: Ihr Kind hat es geschafft. Das Startup, das Sie von Anfang an unterstützt haben, wird für 10 Millionen Euro verkauft. Ein Moment größten Stolzes – bis die steuerliche Realität einbricht.
+                                    </p>
+                                    <p class="text-gray-700 leading-relaxed mt-4">
+                                        Was als Meilenstein gedacht war, wird zur finanziellen Belastung: Ohne richtige Vorsorge gehen über 70% des hart erarbeiteten Erfolgs durch verschiedene Steuermechanismen verloren. Ein Szenario, das Sie heute noch verhindern können.
+                                    </p>
+                                </div>
+                                
+                                <!-- Key Takeaway -->
+                                <div class="bg-blue-50 rounded-xl p-6 border border-blue-100">
+                                    <h4 class="font-semibold text-blue-900 mb-2">Was Sie als Eltern tun können:</h4>
+                                    <p class="text-blue-800">
+                                        Schaffen Sie heute die richtigen Strukturen für morgen. Je früher Sie die Weichen stellen, desto mehr Möglichkeiten bleiben Ihrem Kind erhalten.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="flex-grow">
-                                <h3 class="text-2xl font-semibold text-gray-900 mb-4">Der "erfolgreiche" Exit</h3>
-                                <div class="grid md:grid-cols-2 gap-6">
+
+                            <!-- Data Column -->
+                            <div class="space-y-6">
+                                <!-- Initial Situation -->
+                                <div class="bg-gray-50 rounded-xl p-6">
+                                    <h4 class="font-semibold text-gray-900 mb-3">Das Erfolgsszenario</h4>
+                                    <ul class="space-y-3">
+                                        <li class="flex items-start gap-3">
+                                            <svg class="w-5 h-5 text-gray-400 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
+                                            </svg>
+                                            <div>
+                                                <span class="font-medium text-gray-900">Erster Exit:</span>
+                                                <span class="text-gray-600">10 Millionen Euro</span>
+                                            </div>
+                                        </li>
+                                        <li class="flex items-start gap-3">
+                                            <svg class="w-5 h-5 text-gray-400 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
+                                            </svg>
+                                            <div>
+                                                <span class="font-medium text-gray-900">Typische Situation:</span>
+                                                <span class="text-gray-600">Direkte persönliche Beteiligung ohne Vorsorge</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Consequences -->
+                                <div class="bg-red-50 rounded-xl p-6">
+                                    <h4 class="font-semibold text-red-900 mb-3">Verlust ohne Vorsorge</h4>
                                     <div class="space-y-4">
-                                        <div class="bg-gray-50 rounded-xl p-6">
-                                            <h4 class="font-semibold text-gray-900 mb-3">Ausgangssituation</h4>
-                                            <ul class="space-y-2">
-                                                <li class="flex items-center text-gray-600">
-                                                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
-                                                    </svg>
-                                                    Startup-Exit: 10 Millionen Euro
-                                                </li>
-                                                <li class="flex items-center text-gray-600">
-                                                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
-                                                    </svg>
-                                                    Persönliche Beteiligung in Deutschland
-                                                </li>
-                                                <li class="flex items-center text-gray-600">
-                                                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
-                                                    </svg>
-                                                    Direkter Anteilsverkauf
-                                                </li>
-                                            </ul>
+                                        <div class="flex justify-between items-center pb-2 border-b border-red-100">
+                                            <span class="text-red-700">Sofortige Steuerlast</span>
+                                            <span class="font-semibold text-red-700">~3.000.000 €</span>
+                                        </div>
+                                        <div class="flex justify-between items-center pb-2 border-b border-red-100">
+                                            <span class="text-red-700">Reinvestitionssteuer</span>
+                                            <span class="font-semibold text-red-700">~2.500.000 €</span>
+                                        </div>
+                                        <div class="flex justify-between items-center pt-2">
+                                            <span class="font-medium text-red-800">Verlorenes Potenzial</span>
+                                            <span class="font-bold text-red-800">7.000.000 €</span>
                                         </div>
                                     </div>
-                                    <div class="space-y-4">
-                                        <div class="bg-red-50 rounded-xl p-6">
-                                            <h4 class="font-semibold text-red-900 mb-3">Konsequenz ohne Vorsorge</h4>
-                                            <ul class="space-y-2">
-                                                <li class="flex items-center text-red-700">
-                                                    <svg class="w-5 h-5 text-red-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-                                                    </svg>
-                                                    Sofortige Steuerlast ~30%
-                                                </li>
-                                                <li class="flex items-center text-red-700">
-                                                    <svg class="w-5 h-5 text-red-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-                                                    </svg>
-                                                    Reinvestitionssteuer ~25%
-                                                </li>
-                                                <li class="flex items-center text-red-700">
-                                                    <svg class="w-5 h-5 text-red-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-                                                    </svg>
-                                                    Effektiver Verlust: 7 Millionen Euro
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                </div>
+
+                                <!-- Prevention Hint -->
+                                <div class="bg-green-50 rounded-xl p-4 text-center">
+                                    <p class="text-green-800 text-sm">
+                                        Mit der richtigen Vorsorge könnte dieser Betrag für die weitere Entwicklung Ihres Kindes erhalten bleiben.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Szenario 2: Wegzugsbesteuerung -->
+<!-- Szenario 2: Wegzugsbesteuerung -->
                 <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div class="p-8">
-                        <div class="flex items-start gap-6">
-                            <div class="flex-shrink-0">
-                                <div class="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center">
-                                    <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
-                                    </svg>
+                        <!-- Header mit Icon und Titel -->
+                        <div class="flex items-center gap-4 mb-8">
+                            <div class="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center">
+                                <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-semibold text-gray-900">Die goldene Fessel</h3>
+                                <p class="text-gray-500 mt-1">Wenn Erfolg zur Einschränkung der Lebensgestaltung führt</p>
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <!-- Narrative Column -->
+                            <div class="space-y-6">
+                                <div class="prose prose-lg">
+                                    <p class="text-gray-700 leading-relaxed">
+                                        Ihr Kind hat ein erfolgreiches Unternehmen aufgebaut und erwirtschaftet jährlich 100.000€ Gewinn. Eine großartige Leistung – die jedoch ungeahnte Folgen hat: Der Traum vom internationalen Arbeiten oder Leben wird zur finanziellen Falle.
+                                    </p>
+                                    <p class="text-gray-700 leading-relaxed mt-4">
+                                        Selbst ein Umzug innerhalb der EU wird durch die Wegzugsbesteuerung praktisch unmöglich. Ihr Kind wird zum "Gefangenen des eigenen Erfolgs" – ein Szenario, das sich durch vorausschauende Planung vermeiden lässt.
+                                    </p>
+                                </div>
+                                
+                                <!-- Key Takeaway -->
+                                <div class="bg-blue-50 rounded-xl p-6 border border-blue-100">
+                                    <h4 class="font-semibold text-blue-900 mb-2">Was Sie heute tun können:</h4>
+                                    <p class="text-blue-800">
+                                        Schaffen Sie frühzeitig internationale Strukturen. So bewahren Sie Ihrem Kind alle Optionen für eine selbstbestimmte Zukunft.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="flex-grow">
-                                <h3 class="text-2xl font-semibold text-gray-900 mb-4">Die Wegzugsfalle</h3>
-                                <div class="grid md:grid-cols-2 gap-6">
+
+                            <!-- Data Column -->
+                            <div class="space-y-6">
+                                <!-- Initial Situation -->
+                                <div class="bg-gray-50 rounded-xl p-6">
+                                    <h4 class="font-semibold text-gray-900 mb-3">Die Ausgangslage</h4>
+                                    <ul class="space-y-3">
+                                        <li class="flex items-start gap-3">
+                                            <svg class="w-5 h-5 text-gray-400 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
+                                            </svg>
+                                            <div>
+                                                <span class="font-medium text-gray-900">Erfolg:</span>
+                                                <span class="text-gray-600">100.000€ Jahresgewinn</span>
+                                            </div>
+                                        </li>
+                                        <li class="flex items-start gap-3">
+                                            <svg class="w-5 h-5 text-gray-400 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
+                                            </svg>
+                                            <div>
+                                                <span class="font-medium text-gray-900">Zukunftswunsch:</span>
+                                                <span class="text-gray-600">Internationale Mobilität</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Consequences -->
+                                <div class="bg-orange-50 rounded-xl p-6">
+                                    <h4 class="font-semibold text-orange-900 mb-3">Die Konsequenzen</h4>
                                     <div class="space-y-4">
-                                        <div class="bg-gray-50 rounded-xl p-6">
-                                            <h4 class="font-semibold text-gray-900 mb-3">Situation</h4>
-                                            <ul class="space-y-2">
-                                                <li class="flex items-center text-gray-600">
-                                                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
-                                                    </svg>
-                                                    100.000€ Gewinn pro Jahr
-                                                </li>
-                                                <li class="flex items-center text-gray-600">
-                                                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
-                                                    </svg>
-                                                    Wunsch: Umzug ins EU-Ausland
-                                                </li>
-                                            </ul>
+                                        <div class="flex items-start gap-3">
+                                            <svg class="w-5 h-5 text-orange-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                                            </svg>
+                                            <span class="text-orange-700">Bei Wegzug: 7 Jahre Steuerzahlung im Voraus fällig</span>
+                                        </div>
+                                        <div class="flex items-start gap-3">
+                                            <svg class="w-5 h-5 text-orange-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                                            </svg>
+                                            <span class="text-orange-700">Sofortige Zahlung von 700.000€ erforderlich</span>
+                                        </div>
+                                        <div class="flex items-start gap-3">
+                                            <svg class="w-5 h-5 text-orange-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                                            </svg>
+                                            <span class="text-orange-700">Faktische Bindung an den Standort Deutschland</span>
                                         </div>
                                     </div>
-                                    <div class="space-y-4">
-                                        <div class="bg-orange-50 rounded-xl p-6">
-                                            <h4 class="font-semibold text-orange-900 mb-3">Konsequenz</h4>
-                                            <ul class="space-y-2">
-                                                <li class="flex items-center text-orange-700">
-                                                    <svg class="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-                                                    </svg>
-                                                    7 Jahre effektiv 100% Steuer
-                                                </li>
-                                                <li class="flex items-center text-orange-700">
-                                                    <svg class="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-                                                    </svg>
-                                                    Sofortige Fälligkeit bei Wegzug
-                                                </li>
-                                                <li class="flex items-center text-orange-700">
-                                                    <svg class="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-                                                    </svg>
-                                                    Faktische Unmöglichkeit des Umzugs
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                </div>
+
+                                <!-- Prevention Hint -->
+                                <div class="bg-green-50 rounded-xl p-4 text-center">
+                                    <p class="text-green-800 text-sm">
+                                        Die richtige Strukturierung heute sichert Ihrem Kind morgen alle Optionen für eine internationale Karriere.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                
                 <!-- Szenario 3: Effektive Steuerlast -->
                 <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div class="p-8">
-                        <div class="flex items-start gap-6">
-                            <div class="flex-shrink-0">
-                                <div class="w-16 h-16 bg-yellow-100 rounded-2xl flex items-center justify-center">
-                                    <svg class="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/>
-                                    </svg>
+                        <!-- Header mit Icon und Titel -->
+                        <div class="flex items-center gap-4 mb-8">
+                            <div class="w-16 h-16 bg-yellow-100 rounded-2xl flex items-center justify-center">
+                                <svg class="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-semibold text-gray-900">Die schleichende Belastung</h3>
+                                <p class="text-gray-500 mt-1">Wie die wahre Steuerlast die Zukunft Ihres Kindes prägt</p>
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <!-- Narrative Column -->
+                            <div class="space-y-6">
+                                <div class="prose prose-lg">
+                                    <p class="text-gray-700 leading-relaxed">
+                                        Was Ihr Kind tatsächlich von seinem erwirtschafteten Erfolg behalten kann, ist oft erschreckend wenig. Die verschiedenen Steuerarten summieren sich zu einer Gesamtbelastung, die kaum Spielraum für echten Vermögensaufbau lässt.
+                                    </p>
+                                    <p class="text-gray-700 leading-relaxed mt-4">
+                                        Von jedem verdienten Euro bleiben im typischen Fall nur etwa 30 Cent zur freien Verfügung - ein massiver Einschnitt in die Möglichkeiten, eigene Ideen umzusetzen und nachhaltig Vermögen aufzubauen.
+                                    </p>
+                                </div>
+                                
+                                <!-- Key Takeaway -->
+                                <div class="bg-blue-50 rounded-xl p-6 border border-blue-100">
+                                    <h4 class="font-semibold text-blue-900 mb-2">Was bedeutet das für die Zukunft?</h4>
+                                    <p class="text-blue-800">
+                                        Ohne optimierte Strukturen wird es für Ihr Kind schwer, echtes Vermögen aufzubauen und seine unternehmerischen Visionen zu verwirklichen.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="flex-grow">
-                                <h3 class="text-2xl font-semibold text-gray-900 mb-4">Die wahre Steuerlast</h3>
-                                <div class="grid md:grid-cols-2 gap-6">
-                                    <div class="space-y-4">
-                                        <div class="bg-gray-50 rounded-xl p-6">
-                                            <h4 class="font-semibold text-gray-900 mb-3">Gesamtbelastung</h4>
-                                            <ul class="space-y-2">
-                                                <li class="flex items-center text-gray-600">
-                                                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
-                                                    </svg>
-                                                    Einkommensteuer bis 45%
-                                                </li>
-                                                <li class="flex items-center text-gray-600">
-                                                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
-                                                    </svg>
-                                                    Solidaritätszuschlag 5,5%
-                                                </li>
-                                                <li class="flex items-center text-gray-600">
-                                                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
-                                                    </svg>
-                                                    Gewerbesteuer ~15%
-                                                </li>
-                                                <li class="flex items-center text-gray-600">
-                                                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
-                                                    </svg>
-                                                    Umsatzsteuer 19%
-                                                </li>
-                                            </ul>
+
+                            <!-- Data Column -->
+                            <div class="space-y-6">
+                                <!-- Steuerarten Detail -->
+                                <div class="bg-gray-50 rounded-xl p-6">
+                                    <h4 class="font-semibold text-gray-900 mb-3">Die Belastungen im Detail</h4>
+                                    <div class="space-y-3">
+                                        <div class="flex justify-between items-center p-2 bg-white rounded-lg">
+                                            <span class="font-medium text-gray-700">Einkommensteuer</span>
+                                            <span class="text-gray-600">bis 45%</span>
+                                        </div>
+                                        <div class="flex justify-between items-center p-2 bg-white rounded-lg">
+                                            <span class="font-medium text-gray-700">Solidaritätszuschlag</span>
+                                            <span class="text-gray-600">5,5%</span>
+                                        </div>
+                                        <div class="flex justify-between items-center p-2 bg-white rounded-lg">
+                                            <span class="font-medium text-gray-700">Gewerbesteuer</span>
+                                            <span class="text-gray-600">~15%</span>
+                                        </div>
+                                        <div class="flex justify-between items-center p-2 bg-white rounded-lg">
+                                            <span class="font-medium text-gray-700">Umsatzsteuer</span>
+                                            <span class="text-gray-600">19%</span>
                                         </div>
                                     </div>
+                                </div>
+
+                                <!-- Practical Example -->
+                                <div class="bg-yellow-50 rounded-xl p-6">
+                                    <h4 class="font-semibold text-yellow-900 mb-3">Praktisches Beispiel</h4>
                                     <div class="space-y-4">
-                                        <div class="bg-yellow-50 rounded-xl p-6">
-                                            <h4 class="font-semibold text-yellow-900 mb-3">Effektive Belastung</h4>
-                                            <ul class="space-y-2">
-                                                <li class="flex items-center text-yellow-700">
-                                                    <svg class="w-5 h-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
-                                                    </svg>
-                                                    ~70% Gesamtbelastung auf einen typischen Lebensstil
-                                                </li>
-                                            </ul>
+                                        <div class="flex justify-between items-center pb-2 border-b border-yellow-200">
+                                            <span class="text-yellow-700">Verdiente 100.000€</span>
+                                            <span class="font-semibold text-yellow-700">100%</span>
+                                        </div>
+                                        <div class="flex justify-between items-center pb-2 border-b border-yellow-200">
+                                            <span class="text-yellow-700">Effektive Gesamtbelastung</span>
+                                            <span class="font-semibold text-yellow-700">~70%</span>
+                                        </div>
+                                        <div class="flex justify-between items-center pt-2">
+                                            <span class="font-medium text-yellow-800">Verfügbares Kapital</span>
+                                            <span class="font-bold text-yellow-800">~30.000€</span>
                                         </div>
                                     </div>
+                                </div>
+
+                                <!-- Prevention Hint -->
+                                <div class="bg-green-50 rounded-xl p-4 text-center">
+                                    <p class="text-green-800 text-sm">
+                                        Mit der richtigen Strukturierung kann ein deutlich größerer Teil des erwirtschafteten Erfolgs für Wachstum und Entwicklung genutzt werden.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                
                 <!-- Szenario 4: Blockierter Vermögensaufbau -->
                 <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div class="p-8">
-                        <div class="flex items-start gap-6">
-                            <div class="flex-shrink-0">
-                                <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center">
-                                    <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
-                                    </svg>
+                        <!-- Header mit Icon und Titel -->
+                        <div class="flex items-center gap-4 mb-8">
+                            <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center">
+                                <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-semibold text-gray-900">Der Unterschied einer Generation</h3>
+                                <p class="text-gray-500 mt-1">Wie frühe Weichenstellung das Lebenswerk Ihres Kindes prägt</p>
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <!-- Narrative Column -->
+                            <div class="space-y-6">
+                                <div class="prose prose-lg">
+                                    <p class="text-gray-700 leading-relaxed">
+                                        Ein Startkapital von 100.000€ - zum Beispiel aus einem ersten erfolgreichen Projekt oder einer Erbschaft - könnte der Grundstein für die finanzielle Zukunft Ihres Kindes sein. Doch der Unterschied in der steuerlichen Struktur entscheidet über Generationen.
+                                    </p>
+                                    <p class="text-gray-700 leading-relaxed mt-4">
+                                        Mit der richtigen Strukturierung könnte Ihr Kind nach 30 Jahren ein Vermögen von 850.000€ aufgebaut haben. Ohne Vorsorge bleiben nur 320.000€ - ein Unterschied von mehr als einer halben Million Euro.
+                                    </p>
+                                </div>
+                                
+                                <!-- Key Takeaway -->
+                                <div class="bg-blue-50 rounded-xl p-6 border border-blue-100">
+                                    <h4 class="font-semibold text-blue-900 mb-2">Warum jetzt handeln wichtig ist:</h4>
+                                    <p class="text-blue-800">
+                                        Je früher die richtigen Strukturen geschaffen werden, desto stärker wirkt der Zinseszinseffekt für Ihr Kind - ein Unterschied, der über Generationen nachwirkt.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="flex-grow">
-                                <h3 class="text-2xl font-semibold text-gray-900 mb-4">Der blockierte Vermögensaufbau</h3>
-                                <div class="grid md:grid-cols-2 gap-6">
+
+                            <!-- Data Column -->
+                            <div class="space-y-6">
+                                <!-- Ausgangssituation -->
+                                <div class="bg-gray-50 rounded-xl p-6">
+                                    <h4 class="font-semibold text-gray-900 mb-3">Die Startbedingungen</h4>
                                     <div class="space-y-4">
-                                        <div class="bg-gray-50 rounded-xl p-6">
-                                            <h4 class="font-semibold text-gray-900 mb-3">Beispielrechnung über 30 Jahre</h4>
-                                            <ul class="space-y-2">
-                                                <li class="flex items-center text-gray-600">
-                                                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
-                                                    </svg>
-                                                    Startkapital: 100.000€
-                                                </li>
-                                                <li class="flex items-center text-gray-600">
-                                                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
-                                                    </svg>
-                                                    Jährliche Rendite: 8%
-                                                </li>
-                                            </ul>
+                                        <div class="flex justify-between items-center p-3 bg-white rounded-lg">
+                                            <span class="font-medium text-gray-700">Startkapital</span>
+                                            <span class="text-gray-900 font-semibold">100.000€</span>
                                         </div>
-                                        <div class="bg-green-50 rounded-xl p-6">
-                                            <h4 class="font-semibold text-green-900 mb-3">Vermögen nach 30 Jahren</h4>
-                                            <ul class="space-y-2">
-                                                <li class="flex items-center text-green-700">
-                                                    <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                                                    </svg>
-                                                    Bei 15% Steuer: ~850.000€
-                                                </li>
-                                                <li class="flex items-center text-red-700">
-                                                    <svg class="w-5 h-5 text-red-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-                                                    </svg>
-                                                    Bei 45% Steuer: ~320.000€
-                                                </li>
-                                            </ul>
+                                        <div class="flex justify-between items-center p-3 bg-white rounded-lg">
+                                            <span class="font-medium text-gray-700">Anlagehorizont</span>
+                                            <span class="text-gray-900 font-semibold">30 Jahre</span>
+                                        </div>
+                                        <div class="flex justify-between items-center p-3 bg-white rounded-lg">
+                                            <span class="font-medium text-gray-700">Jährliche Rendite</span>
+                                            <span class="text-gray-900 font-semibold">8%</span>
                                         </div>
                                     </div>
-                                    <div class="space-y-4">
-                                        <div class="bg-red-50 rounded-xl p-6">
-                                            <h4 class="font-semibold text-red-900 mb-3">Verlorenes Potenzial</h4>
-                                            <ul class="space-y-2">
-                                                <li class="flex items-center text-red-700">
-                                                    <svg class="w-5 h-5 text-red-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"/>
-                                                    </svg>
-                                                    Über 530.000€ weniger Endvermögen
-                                                </li>
-                                                <li class="flex items-center text-red-700">
-                                                    <svg class="w-5 h-5 text-red-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"/>
-                                                    </svg>
-                                                    62% des möglichen Vermögens verloren
-                                                </li>
-                                            </ul>
+                                </div>
+
+                                <!-- Vergleich -->
+                                <div class="grid gap-4">
+                                    <div class="bg-green-50 rounded-xl p-6">
+                                        <div class="flex items-center justify-between mb-2">
+                                            <h4 class="font-semibold text-green-900">Mit optimaler Struktur</h4>
+                                            <span class="text-sm text-green-600">15% Steuer</span>
                                         </div>
+                                        <div class="text-3xl font-bold text-green-700">850.000€</div>
+                                        <p class="text-green-600 text-sm mt-2">Maximales Potenzial für die Zukunft</p>
                                     </div>
+
+                                    <div class="bg-red-50 rounded-xl p-6">
+                                        <div class="flex items-center justify-between mb-2">
+                                            <h4 class="font-semibold text-red-900">Ohne Vorsorge</h4>
+                                            <span class="text-sm text-red-600">45% Steuer</span>
+                                        </div>
+                                        <div class="text-3xl font-bold text-red-700">320.000€</div>
+                                        <p class="text-red-600 text-sm mt-2">530.000€ weniger Vermögensaufbau</p>
+                                    </div>
+                                </div>
+
+                                <!-- Prevention Hint -->
+                                <div class="bg-green-50 rounded-xl p-4 text-center">
+                                    <p class="text-green-800 text-sm">
+                                        Diese Differenz von 530.000€ könnte der entscheidende Unterschied für die Zukunftsmöglichkeiten Ihres Kindes sein.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                
                 <!-- Szenario 5: Zukünftige Risiken -->
                 <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div class="p-8">
-                        <div class="flex items-start gap-6">
-                            <div class="flex-shrink-0">
-                                <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center">
-                                    <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
-                                    </svg>
+                        <!-- Header mit Icon und Titel -->
+                        <div class="flex items-center gap-4 mb-8">
+                            <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center">
+                                <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-semibold text-gray-900">Lektionen der Geschichte</h3>
+                                <p class="text-gray-500 mt-1">Warum Vorsorge heute wichtiger ist denn je</p>
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <!-- Narrative Column -->
+                            <div class="space-y-6">
+                                <div class="prose prose-lg">
+                                    <p class="text-gray-700 leading-relaxed">
+                                        Die Geschichte zeigt uns: In außergewöhnlichen Zeiten können auch außergewöhnliche Maßnahmen folgen. Der Lastenausgleich nach dem Zweiten Weltkrieg bedeutete für viele Familien den Verlust von 50% ihres Vermögens - ein historisches Beispiel dafür, wie schnell sich Rahmenbedingungen ändern können.
+                                    </p>
+                                    <p class="text-gray-700 leading-relaxed mt-4">
+                                        Auch heute gibt es keine rechtliche Obergrenze für Sonderabgaben, und die Präzedenzfälle der Vergangenheit zeigen: Vermögen, das nicht klug strukturiert ist, kann schnell zur Zielscheibe werden.
+                                    </p>
+                                </div>
+                                
+                                <!-- Key Takeaway -->
+                                <div class="bg-blue-50 rounded-xl p-6 border border-blue-100">
+                                    <h4 class="font-semibold text-blue-900 mb-2">Was bedeutet das für Ihr Kind?</h4>
+                                    <p class="text-blue-800">
+                                        Die richtige Strukturierung heute ist der beste Schutz für die Zukunft. Damit Ihr Kind auch in unsicheren Zeiten handlungsfähig bleibt.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="flex-grow">
-                                <h3 class="text-2xl font-semibold text-gray-900 mb-4">Zukünftige Bedrohungen</h3>
-                                <div class="grid md:grid-cols-2 gap-6">
+
+                            <!-- Data Column -->
+                            <div class="space-y-6">
+                                <!-- Historische Beispiele -->
+                                <div class="bg-gray-50 rounded-xl p-6">
+                                    <h4 class="font-semibold text-gray-900 mb-4">Historische Präzedenzfälle</h4>
                                     <div class="space-y-4">
-                                        <div class="bg-gray-50 rounded-xl p-6">
-                                            <h4 class="font-semibold text-gray-900 mb-3">Historische Präzedenzfälle</h4>
-                                            <ul class="space-y-2">
-                                                <li class="flex items-center text-gray-600">
-                                                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
-                                                    </svg>
-                                                    Lastenausgleich (50% des Vermögens)
-                                                </li>
-                                                <li class="flex items-center text-gray-600">
-                                                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
-                                                    </svg>
-                                                    Vermögensabgabe
-                                                </li>
-                                                <li class="flex items-center text-gray-600">
-                                                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
-                                                    </svg>
-                                                    Neue Sonderabgaben
-                                                </li>
-                                            </ul>
+                                        <div class="bg-white rounded-lg p-4 border-l-4 border-gray-500">
+                                            <h5 class="font-medium text-gray-900">Lastenausgleich</h5>
+                                            <p class="text-gray-600 text-sm mt-1">50% des Vermögens wurden zur Finanzierung des Wiederaufbaus herangezogen</p>
+                                        </div>
+                                        <div class="bg-white rounded-lg p-4 border-l-4 border-gray-500">
+                                            <h5 class="font-medium text-gray-900">Vermögensabgabe</h5>
+                                            <p class="text-gray-600 text-sm mt-1">Einmalige Sonderabgaben auf Vermögen in Krisenzeiten</p>
+                                        </div>
+                                        <div class="bg-white rounded-lg p-4 border-l-4 border-gray-500">
+                                            <h5 class="font-medium text-gray-900">Notfall-Enteignungen</h5>
+                                            <p class="text-gray-600 text-sm mt-1">Rechtliche Möglichkeit in außergewöhnlichen Situationen</p>
                                         </div>
                                     </div>
+                                </div>
+
+                                <!-- Aktuelle Risiken -->
+                                <div class="bg-purple-50 rounded-xl p-6">
+                                    <h4 class="font-semibold text-purple-900 mb-3">Aktuelle Situation</h4>
                                     <div class="space-y-4">
-                                        <div class="bg-purple-50 rounded-xl p-6">
-                                            <h4 class="font-semibold text-purple-900 mb-3">Risiken</h4>
-                                            <ul class="space-y-2">
-                                                <li class="flex items-center text-purple-700">
-                                                    <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
-                                                    </svg>
-                                                    Keine rechtliche Begrenzung für Sonderabgaben
-                                                </li>
-                                                <li class="flex items-center text-purple-700">
-                                                    <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
-                                                    </svg>
-                                                    Präzedenzfälle für Notfall-Enteignungen
-                                                </li>
-                                            </ul>
+                                        <div class="flex items-start gap-3">
+                                            <svg class="w-5 h-5 text-purple-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                                            </svg>
+                                            <span class="text-purple-700">Keine rechtlichen Grenzen für neue Sonderabgaben</span>
+                                        </div>
+                                        <div class="flex items-start gap-3">
+                                            <svg class="w-5 h-5 text-purple-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                                            </svg>
+                                            <span class="text-purple-700">Steigende Staatsverschuldung erhöht Risiko neuer Abgaben</span>
                                         </div>
                                     </div>
+                                </div>
+
+                                <!-- Prevention Hint -->
+                                <div class="bg-green-50 rounded-xl p-4 text-center">
+                                    <p class="text-green-800 text-sm">
+                                        Mit der richtigen Strukturierung heute können Sie Ihr Kind vor den Unsicherheiten von morgen schützen.
+                                    </p>
                                 </div>
                             </div>
                         </div>
