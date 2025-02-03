@@ -1,9 +1,9 @@
 name: Deploy
 on:
   push:
-    branches: [main, dev]
+    branches: [main]
   pull_request:
-    branches: [main, dev]
+    branches: [main]
 
 jobs:
   deploy:
@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install Deno
-        uses: denoland/setup-deno@v2
+        uses: denoland/setup-deno@v2git
         with:
           deno-version: v2.x
 
