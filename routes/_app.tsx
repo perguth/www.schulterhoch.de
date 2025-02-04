@@ -10,6 +10,11 @@ export default function App({ Component }: PageProps) {
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <title>www.schulterhoch.de</title>
         <link rel='stylesheet' href={asset('/styles.css')} />
+        <script
+          defer
+          data-domain='schulterhoch.de'
+          src='/js/script.js'
+        />
       </head>
       <body>
         <Component />
