@@ -78,10 +78,10 @@ export function Footer() {
                 kontakt@schulterhoch.de
               </a>
               <a
-                href='tel:+49123456789'
+                href='tel:+4971192539772'
                 class='block hover:text-white transition-colors'
               >
-                +49 (0) 123 456 789
+                +49 711 925 397 72
               </a>
             </div>
           </div>
@@ -122,4 +122,4 @@ export function Footer() {
 
 // Constants for reuse
 export const CONTACT_EMAIL = 'kontakt@schulterhoch.de'
-export const CONTACT_PHONE = '+49123456789'
+export const CONTACT_PHONE = '+4971192539772'
