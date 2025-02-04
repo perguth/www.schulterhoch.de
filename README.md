@@ -1,16 +1,31 @@
-# Fresh project
+# Schulterhoch Platform
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+Digital platform for wealth structuring and preservation across generations. Building in public at schulterhoch.de, focusing on:
+- Exit planning for founders
+- International mobility strategies
+- Tax-efficient wealth structures
+- Multi-generational wealth preservation
 
-### Usage
+## Tech Stack
+- 🦕 Deno/Fresh
+- 🎨 Tailwind CSS
+- ⚡ Islands Architecture
+- 🔒 Type-safe throughout
 
-Make sure to install Deno: https://deno.land/manual/getting_started/installation
+## Development
 
-Then start the project:
+```bash
+# Install dependencies
+deno task setup
 
-```
+# Start the development server
 deno task start
 ```
 
-This will watch the project directory and restart as necessary.
+## Status
+🚧 Active development - This is a proprietary project being built in public. While the code is visible for educational purposes, all rights are reserved.
+
+## License
+Copyright (c) 2024 Schulterhoch. All rights reserved.
+
+The codebase and its contents are provided for transparency and educational purposes as part of our #BuildingInPublic initiative. However, no license is granted to use, modify, or distribute this code without explicit written permission.
