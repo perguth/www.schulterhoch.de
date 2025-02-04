@@ -13,7 +13,7 @@ export default function App({ Component }: PageProps) {
         <script
           defer
           data-domain='schulterhoch.de'
-          src='/js/script.js'
+          src='https://www.schulterhoch.de/js/script.js'
         />
       </head>
       <body>
