@@ -1,25 +1,27 @@
 // components/PurposeSection.tsx
 export default function PurposeSection() {
   return (
-    <section className='bg-white py-20'>
+    <section className='bg-white py-16'>
       <div className='container mx-auto px-6'>
-        <div class='max-w-3xl mx-auto'>
-          <div class='text-center mb-10'>
-            <h2 class='text-3xl font-bold text-gray-900 mb-4'>
-              Meine Lösung für Ihre Familie
+        <div className='max-w-4xl mx-auto'>
+          <div className='text-center mb-12'>
+            <h2 className='text-4xl font-bold text-gray-900 mb-4'>
+              Zukunftssicherung für Ihre Familie
             </h2>
-            <p class='text-xl text-gray-600'>
-              Ein durchdachtes System für maximale Handlungsfreiheit
+            <p className='text-xl text-gray-600'>
+              Mit klugen Strukturen schaffen Sie finanzielle Freiheit und
+              schützen das Vermögen Ihrer Kinder.
             </p>
           </div>
 
           {/* Structured Benefits */}
-          <div className='bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl'>
-            <div className='space-y-4'>
-              <div className='flex gap-4 items-center'>
-                <div className='flex-shrink-0 w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center'>
+          <div className='bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl shadow-lg'>
+            <div className='space-y-6'>
+              {/* Benefit 1: Sicherheit */}
+              <div className='flex gap-6 items-start'>
+                <div className='flex-shrink-0 w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center'>
                   <svg
-                    className='w-6 h-6 text-white'
+                    className='w-8 h-8 text-white'
                     fill='none'
                     stroke='currentColor'
                     viewBox='0 0 24 24'
@@ -33,60 +35,61 @@ export default function PurposeSection() {
                   </svg>
                 </div>
                 <div className='flex-grow'>
-                  <h3 className='text-lg font-medium pv-1'>
-                    Echte Sicherheit:
+                  <h3 className='text-xl font-semibold text-gray-900 mb-3'>
+                    Sicherheit durch Struktur:
                   </h3>
-                  <div class='flex items-start gap-3 group/item'>
-                    <div class='flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mt-1 group-hover/item:bg-green-200 transition-colors'>
-                      <svg
-                        class='w-4 h-4 text-green-600'
-                        fill='none'
-                        stroke='currentColor'
-                        viewBox='0 0 24 24'
-                      >
-                        <path
-                          stroke-linecap='round'
-                          stroke-linejoin='round'
-                          stroke-width='2'
-                          d='M5 13l4 4L19 7'
+                  <div className='space-y-2'>
+                    <div className='flex items-start gap-3'>
+                      <div className='flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mt-1'>
+                        <svg
+                          className='w-4 h-4 text-green-600'
+                          fill='none'
+                          stroke='currentColor'
+                          viewBox='0 0 24 24'
                         >
-                        </path>
-                      </svg>
+                          <path
+                            strokeLinecap='round'
+                            strokeLinejoin='round'
+                            strokeWidth='2'
+                            d='M5 13l4 4L19 7'
+                          />
+                        </svg>
+                      </div>
+                      <p className='text-lg text-blue-800'>
+                        Individuelle Vermögensstrukturierung zur Minimierung von
+                        Steuerlast und Haftungsrisiken.
+                      </p>
                     </div>
-                    <p class='font-medium leading-relaxed text-blue-800'>
-                      Maßgeschneiderte Vermögensstruktur mit optimierten Steuer-
-                      und Haftungskonzepten
-                    </p>
-                  </div>
-                  <div class='flex items-start gap-3 group/item'>
-                    <div class='flex-shrink-0 w-6 h-6 rounded-full bg-red-100 flex items-center justify-center mt-1 group-hover/item:bg-red-200 transition-colors'>
-                      <svg
-                        class='w-4 h-4 text-red-600'
-                        fill='none'
-                        stroke='currentColor'
-                        viewBox='0 0 24 24'
-                      >
-                        <path
-                          stroke-linecap='round'
-                          stroke-linejoin='round'
-                          stroke-width='2'
-                          d='M6 18L18 6M6 6l12 12'
+                    <div className='flex items-start gap-3'>
+                      <div className='flex-shrink-0 w-6 h-6 rounded-full bg-red-100 flex items-center justify-center mt-1'>
+                        <svg
+                          className='w-4 h-4 text-red-600'
+                          fill='none'
+                          stroke='currentColor'
+                          viewBox='0 0 24 24'
                         >
-                        </path>
-                      </svg>
+                          <path
+                            strokeLinecap='round'
+                            strokeLinejoin='round'
+                            strokeWidth='2'
+                            d='M6 18L18 6M6 6l12 12'
+                          />
+                        </svg>
+                      </div>
+                      <p className='text-lg text-gray-600 line-through'>
+                        Hohe Steuerbelastung und Risiken durch unstrukturierte
+                        Vermögensverwaltung.
+                      </p>
                     </div>
-                    <p class='text-gray-600 leading-relaxed line-through'>
-                      Gesetzliche Erbfolge mit Pflichtteilen und
-                      Zugewinnausgleich
-                    </p>
                   </div>
                 </div>
               </div>
 
-              <div className='flex gap-4 items-center'>
-                <div className='flex-shrink-0 w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center'>
+              {/* Benefit 2: Flexibilität */}
+              <div className='flex gap-6 items-start'>
+                <div className='flex-shrink-0 w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center'>
                   <svg
-                    className='w-6 h-6 text-white'
+                    className='w-8 h-8 text-white'
                     fill='none'
                     stroke='currentColor'
                     viewBox='0 0 24 24'
@@ -100,59 +103,61 @@ export default function PurposeSection() {
                   </svg>
                 </div>
                 <div className='flex-grow'>
-                  <h3 className='text-lg font-medium pv-1'>
-                    Volle Entfaltung:
+                  <h3 className='text-xl font-semibold text-gray-900 mb-3'>
+                    Flexibilität für die Zukunft:
                   </h3>
-                  <div class='flex items-start gap-3 group/item'>
-                    <div class='flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mt-1 group-hover/item:bg-green-200 transition-colors'>
-                      <svg
-                        class='w-4 h-4 text-green-600'
-                        fill='none'
-                        stroke='currentColor'
-                        viewBox='0 0 24 24'
-                      >
-                        <path
-                          stroke-linecap='round'
-                          stroke-linejoin='round'
-                          stroke-width='2'
-                          d='M5 13l4 4L19 7'
+                  <div className='space-y-2'>
+                    <div className='flex items-start gap-3'>
+                      <div className='flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mt-1'>
+                        <svg
+                          className='w-4 h-4 text-green-600'
+                          fill='none'
+                          stroke='currentColor'
+                          viewBox='0 0 24 24'
                         >
-                        </path>
-                      </svg>
+                          <path
+                            strokeLinecap='round'
+                            strokeLinejoin='round'
+                            strokeWidth='2'
+                            d='M5 13l4 4L19 7'
+                          />
+                        </svg>
+                      </div>
+                      <p className='text-lg text-blue-800'>
+                        Internationale Strukturen, die Mobilität und
+                        unternehmerische Freiheit ermöglichen.
+                      </p>
                     </div>
-                    <p class='font-medium leading-relaxed text-blue-800'>
-                      Flexible Strukturen für internationale Karrieren und
-                      Lebensentwürfe
-                    </p>
-                  </div>
-                  <div class='flex items-start gap-3 group/item'>
-                    <div class='flex-shrink-0 w-6 h-6 rounded-full bg-red-100 flex items-center justify-center mt-1 group-hover/item:bg-red-200 transition-colors'>
-                      <svg
-                        class='w-4 h-4 text-red-600'
-                        fill='none'
-                        stroke='currentColor'
-                        viewBox='0 0 24 24'
-                      >
-                        <path
-                          stroke-linecap='round'
-                          stroke-linejoin='round'
-                          stroke-width='2'
-                          d='M6 18L18 6M6 6l12 12'
+                    <div className='flex items-start gap-3'>
+                      <div className='flex-shrink-0 w-6 h-6 rounded-full bg-red-100 flex items-center justify-center mt-1'>
+                        <svg
+                          className='w-4 h-4 text-red-600'
+                          fill='none'
+                          stroke='currentColor'
+                          viewBox='0 0 24 24'
                         >
-                        </path>
-                      </svg>
+                          <path
+                            strokeLinecap='round'
+                            strokeLinejoin='round'
+                            strokeWidth='2'
+                            d='M6 18L18 6M6 6l12 12'
+                          />
+                        </svg>
+                      </div>
+                      <p className='text-lg text-gray-600 line-through'>
+                        Einschränkungen durch nationale Steuergesetze und
+                        Wegzugsbesteuerung.
+                      </p>
                     </div>
-                    <p class='text-gray-600 leading-relaxed line-through'>
-                      Einschränkungen durch starre gesetzliche Vorgaben
-                    </p>
                   </div>
                 </div>
               </div>
 
-              <div className='flex gap-4 items-center'>
-                <div className='flex-shrink-0 w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center'>
+              {/* Benefit 3: Nachhaltigkeit */}
+              <div className='flex gap-6 items-start'>
+                <div className='flex-shrink-0 w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center'>
                   <svg
-                    className='w-6 h-6 text-white'
+                    className='w-8 h-8 text-white'
                     fill='none'
                     stroke='currentColor'
                     viewBox='0 0 24 24'
@@ -166,51 +171,52 @@ export default function PurposeSection() {
                   </svg>
                 </div>
                 <div className='flex-grow'>
-                  <h3 className='text-lg font-medium pv-1'>
-                    Freie Wahl:
+                  <h3 className='text-xl font-semibold text-gray-900 mb-3'>
+                    Nachhaltiger Vermögensaufbau:
                   </h3>
-                  <div class='flex items-start gap-3 group/item'>
-                    <div class='flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mt-1 group-hover/item:bg-green-200 transition-colors'>
-                      <svg
-                        class='w-4 h-4 text-green-600'
-                        fill='none'
-                        stroke='currentColor'
-                        viewBox='0 0 24 24'
-                      >
-                        <path
-                          stroke-linecap='round'
-                          stroke-linejoin='round'
-                          stroke-width='2'
-                          d='M5 13l4 4L19 7'
+                  <div className='space-y-2'>
+                    <div className='flex items-start gap-3'>
+                      <div className='flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mt-1'>
+                        <svg
+                          className='w-4 h-4 text-green-600'
+                          fill='none'
+                          stroke='currentColor'
+                          viewBox='0 0 24 24'
                         >
-                        </path>
-                      </svg>
+                          <path
+                            strokeLinecap='round'
+                            strokeLinejoin='round'
+                            strokeWidth='2'
+                            d='M5 13l4 4L19 7'
+                          />
+                        </svg>
+                      </div>
+                      <p className='text-lg text-blue-800'>
+                        Langfristige Vermögenssicherung durch strategische
+                        Planung und Steueroptimierung.
+                      </p>
                     </div>
-                    <p class='font-medium leading-relaxed text-blue-800'>
-                      Selbstbestimmte Gestaltung der Vermögensnachfolge über
-                      Generationen
-                    </p>
-                  </div>
-                  <div class='flex items-start gap-3 group/item'>
-                    <div class='flex-shrink-0 w-6 h-6 rounded-full bg-red-100 flex items-center justify-center mt-1 group-hover/item:bg-red-200 transition-colors'>
-                      <svg
-                        class='w-4 h-4 text-red-600'
-                        fill='none'
-                        stroke='currentColor'
-                        viewBox='0 0 24 24'
-                      >
-                        <path
-                          stroke-linecap='round'
-                          stroke-linejoin='round'
-                          stroke-width='2'
-                          d='M6 18L18 6M6 6l12 12'
+                    <div className='flex items-start gap-3'>
+                      <div className='flex-shrink-0 w-6 h-6 rounded-full bg-red-100 flex items-center justify-center mt-1'>
+                        <svg
+                          className='w-4 h-4 text-red-600'
+                          fill='none'
+                          stroke='currentColor'
+                          viewBox='0 0 24 24'
                         >
-                        </path>
-                      </svg>
+                          <path
+                            strokeLinecap='round'
+                            strokeLinejoin='round'
+                            strokeWidth='2'
+                            d='M6 18L18 6M6 6l12 12'
+                          />
+                        </svg>
+                      </div>
+                      <p className='text-lg text-gray-600 line-through'>
+                        Verlust von Vermögenswerten durch unvorbereitete
+                        Steuerlasten und Erbschaftsregelungen.
+                      </p>
                     </div>
-                    <p class='text-gray-600 leading-relaxed line-through'>
-                      Bindung an vorgegebene Vermögensverteilung
-                    </p>
                   </div>
                 </div>
               </div>
