@@ -61,19 +61,10 @@ function BenefitIcon({ type }: { type: Benefit['icon'] }) {
 
 export default function BenefitSection() {
   return (
-    <section class='bg-white py-20'>
-      <div class='container mx-auto px-6'>
+    <section class='bg-white'>
+      <div class='container mx-auto'>
         <div class='max-w-3xl mx-auto'>
-          <div class='text-center mb-16'>
-            <h2 class='text-3xl font-bold text-gray-900 mb-4'>
-              Unsere Lösung für Ihre Familie
-            </h2>
-            <p class='text-xl text-gray-600'>
-              Ein durchdachtes System für maximale Handlungsfreiheit
-            </p>
-          </div>
-
-          <div class='space-y-8'>
+          <div class='space-y-8 px-6'>
             {benefits.map((benefit) => (
               <div class='flex items-start gap-4' key={benefit.title}>
                 <div
@@ -91,6 +82,13 @@ export default function BenefitSection() {
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* CTA */}
+          <div className='text-center mt-12'>
+            <button className='bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors'>
+              Strategieleitfaden herunterladen
+            </button>
           </div>
         </div>
       </div>

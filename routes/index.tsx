@@ -7,6 +7,7 @@ import PersonalSection from '../components/PersonalSection.tsx'
 import { Footer } from '../components/Footer.tsx'
 import { Navbar } from '../components/Navbar.tsx'
 import BetaBanner from '../islands/BetaBanner.tsx'
+import PurposeSection from '../components/PurposeSection.tsx'
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <main class='flex-grow'>
           <HeroSection />
           <ScenarioSection />
+          <PurposeSection />
           <BenefitSection />
           <PersonalSection />
         </main>

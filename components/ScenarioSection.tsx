@@ -13,34 +13,77 @@ const scenarios: Scenario[] = [
     content: {
       description: [
         'Stellen Sie sich vor: Ihr Kind hat es geschafft. Das Startup, das Sie von Anfang an unterstützt haben, wird für 10 Millionen Euro verkauft. Ein Moment größten Stolzes – bis die steuerliche Realität einbricht.',
-        'Was als Meilenstein gedacht war, wird zur finanziellen Belastung: Ohne richtige Vorsorge gehen über 70% des hart erarbeiteten Erfolgs durch verschiedene Steuermechanismen verloren. Ein Szenario, das Sie heute noch verhindern können.',
+        'Was als Meilenstein gedacht war, wird zur finanziellen Belastung: Ohne richtige Vorsorge gehen fast 50% des hart erarbeiteten Erfolgs durch Steuern verloren. Ein Szenario, das Sie heute noch optimieren können.',
       ],
       takeaway:
-        'Schaffen Sie heute die richtigen Strukturen für morgen. Je früher Sie die Weichen stellen, desto mehr Möglichkeiten bleiben Ihrem Kind erhalten.',
+        'Schaffen Sie heute die richtigen Strukturen für morgen. Je früher Sie die Weichen stellen, desto mehr Optionen bleiben Ihrem Kind erhalten.',
       metrics: {
         title: 'Das Erfolgsszenario',
         items: [
-          { label: 'Erster Exit', value: '10 Millionen Euro' },
+          { label: 'Exit-Erlös', value: '10 Millionen Euro' },
           {
-            label: 'Typische Situation',
-            value: 'Direkte persönliche Beteiligung ohne Vorsorge',
+            label: 'Ausgangslage',
+            value: 'Direkte persönliche Beteiligung ohne Strukturierung',
           },
         ],
       },
       consequences: {
-        title: 'Verlust ohne Vorsorge',
+        title: 'Steuerbelastung ohne Vorsorge',
         items: [
-          { label: 'Sofortige Steuerlast', value: '~3.000.000 €' },
-          { label: 'Reinvestitionssteuer', value: '~2.500.000 €' },
+          { label: 'Einkommensteuer & Soli', value: '~4.750.000 €' },
           {
-            label: 'Verlorenes Potenzial',
-            value: '7.000.000 €',
+            label: 'Verfügbares Kapital',
+            value: '~5.250.000 €',
             emphasis: true,
           },
         ],
       },
       prevention:
-        'Mit der richtigen Vorsorge könnte dieser Betrag für die weitere Entwicklung Ihres Kindes erhalten bleiben.',
+        'Mit der richtigen Strukturierung kann ein deutlich größerer Teil des Exits für Reinvestitionen und zukünftige Entwicklung genutzt werden.',
+    },
+  },
+  {
+    id: 'transformation',
+    title: 'Die Umwandlungsfalle',
+    subtitle: 'Wenn frühzeitige Entscheidungen späteren Erfolg einschränken',
+    icon: {
+      type: 'money', // oder 'lock', je nachdem welches besser passt
+      color: 'rose',
+    },
+    content: {
+      description: [
+        'Was viele nicht wissen: Die Art der Unternehmensgründung hat massive Auswirkungen auf spätere Handlungsoptionen. Ein als Einzelunternehmen gestartetes Business kann zwar in eine GmbH umgewandelt werden - aber entweder mit 7-jähriger Sperrfrist oder sofortiger Besteuerung.',
+        'Diese Entscheidung zwischen Sperrfrist oder Steuerbelastung wird oft genau dann relevant, wenn sich die beste Exit-Gelegenheit bietet. Eine übereilte Anfangsstrukturierung kann so zum kostspieligen Dilemma werden.',
+      ],
+      takeaway:
+        'Die richtige Rechtsform von Anfang an ermöglicht maximale Flexibilität bei minimaler Steuerbelastung.',
+      metrics: {
+        title: 'Typische Situation',
+        items: [
+          { label: 'Startphase', value: 'Gründung als Einzelunternehmen' },
+          { label: 'Später', value: 'Umwandlung in GmbH notwendig' },
+        ],
+      },
+      consequences: {
+        title: 'Die Optionen',
+        items: [
+          {
+            label: 'Option 1',
+            value: '7 Jahre Sperrfrist ohne Steuern',
+          },
+          {
+            label: 'Option 2',
+            value: 'Sofortige Besteuerung (~47,5%)',
+          },
+          {
+            label: 'Konsequenz',
+            value: 'Eingeschränkte Handlungsfreiheit',
+            emphasis: true,
+          },
+        ],
+      },
+      prevention:
+        'Eine durchdachte Anfangsstrukturierung vermeidet dieses Dilemma und erhält alle Handlungsoptionen.',
     },
   },
   {
@@ -152,6 +195,50 @@ const scenarios: Scenario[] = [
     },
   },
   {
+    id: 'growth',
+    title: 'Die Wachstumsbremse',
+    subtitle: 'Wenn Gewinne das Unternehmen nicht weiterbringen',
+    icon: {
+      type: 'chart',
+      color: 'emerald',
+    },
+    content: {
+      description: [
+        'Ein junges Unternehmen erwirtschaftet erste Gewinne - doch diese können nicht optimal für weiteres Wachstum eingesetzt werden. Grund: Die klassische GmbH-Struktur führt zu einer Doppelbesteuerung bei der Reinvestition in neue Projekte.',
+        'Gewinne müssen erst versteuert und ausgeschüttet werden, bevor sie in neue Projekte investiert werden können. Bei einer Million Euro Gewinn bleiben so oft nur 500.000€ für echtes Wachstum - ein massiver Nachteil im Wettbewerb.',
+      ],
+      takeaway:
+        'Mit der richtigen Holding-Struktur können Gewinne flexibel und steuereffizient für weiteres Wachstum eingesetzt werden.',
+      metrics: {
+        title: 'Ausgangssituation',
+        items: [
+          { label: 'Gewinn', value: '1.000.000€' },
+          { label: 'Geplant', value: 'Reinvestition in neue Projekte' },
+        ],
+      },
+      consequences: {
+        title: 'Klassischer Weg',
+        items: [
+          {
+            label: 'Unternehmenssteuer',
+            value: '~30% (GewSt + KSt)',
+          },
+          {
+            label: 'Ausschüttungssteuer',
+            value: '~26,375% (Abgeltung)',
+          },
+          {
+            label: 'Verfügbar für Wachstum',
+            value: '~500.000€',
+            emphasis: true,
+          },
+        ],
+      },
+      prevention:
+        'Eine optimierte Struktur ermöglicht die volle Nutzung der Gewinne für weiteres Wachstum.',
+    },
+  },
+  {
     id: 'future-risks',
     title: 'Lektionen der Geschichte',
     subtitle: 'Warum Vorsorge heute wichtiger ist denn je',
@@ -194,8 +281,6 @@ const scenarios: Scenario[] = [
     },
   },
 ]
-
-// Rest der Komponente bleibt unverändert...
 
 export default function ScenarioSection() {
   return (

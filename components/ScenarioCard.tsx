@@ -141,7 +141,7 @@ export function ScenarioCard({ scenario }: ScenarioCardProps) {
                     <div>
                       <span class='font-medium text-gray-900'>
                         {item.label}:
-                      </span>
+                      </span>{' '}
                       <span class='text-gray-600'>{item.value}</span>
                     </div>
                   </li>
@@ -158,7 +158,7 @@ export function ScenarioCard({ scenario }: ScenarioCardProps) {
                 {content.consequences.items.map((item, index) => (
                   <div
                     key={index}
-                    class={`flex justify-between items-center ${
+                    class={`flex gap-4 justify-between items-center ${
                       index < content.consequences.items.length - 1
                         ? `pb-2 border-b border-${icon.color}-100`
                         : 'pt-2'

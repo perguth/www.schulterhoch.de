@@ -18,8 +18,9 @@ const experiences: Experience[] = [
 
 export default function PersonalSection() {
   return (
-    <section class='bg-white py-20'>
+    <section class='bg-white p-20'>
       <div class='container mx-auto px-6'>
+        <hr class='pb-10' />
         <div class='grid md:grid-cols-2 gap-12 items-center'>
           {/* Profile Image & Info */}
           <div class='space-y-6'>
